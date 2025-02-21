@@ -1,0 +1,7 @@
+前端：React + Ant Design + FullCalendar
+后端：Python + FastAPI + SQLAlchemy
+异步任务：Celery + Redis
+ORM：SQLAlchemy + Alembic（数据库迁移）
+数据库：保留PostgreSQL，增加MongoDB（用于非结构化数据）
+部署：Docker + Nginx + AWS EC2
+AI集成：可选GPT-4 API用于智能建议 

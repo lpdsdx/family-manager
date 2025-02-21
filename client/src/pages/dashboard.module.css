@@ -1,0 +1,48 @@
+.dashboardGrid {
+  width: 100%;
+  min-height: calc(100vh - 96px);
+  background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, #f8f9fa 100%);
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+}
+
+/* 统计卡片样式 */
+:global(.ant-card) {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+:global(.ant-card:hover) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* 时间轴样式 */
+:global(.ant-timeline) {
+  padding: 8px;
+}
+
+/* 列表样式 */
+:global(.ant-list-item) {
+  padding: 12px 0;
+}
+
+:global(.ant-tag) {
+  border-radius: 4px;
+}
+
+/* 移动端样式 */
+@media (max-width: 768px) {
+  .dashboardGrid {
+    padding: 12px;
+  }
+  
+  :global(.ant-statistic) {
+    font-size: 14px;
+  }
+  
+  :global(.ant-timeline-item) {
+    padding-bottom: 8px;
+  }
+} 
